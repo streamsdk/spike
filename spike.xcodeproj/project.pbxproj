@@ -29,6 +29,7 @@
 		0EFA8C3C18CF17BE00EFDD8D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA8C3B18CF17BE00EFDD8D /* ImageIO.framework */; };
 		0EFA8C4218CF1B0600EFDD8D /* ScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA8C4018CF1B0600EFDD8D /* ScannerViewController.m */; };
 		0EFA8C4318CF1B0600EFDD8D /* ScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFA8C4118CF1B0600EFDD8D /* ScannerViewController.xib */; };
+		0EFA8C5918CF2D6500EFDD8D /* libZXingObjC-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA8C5018CF2D5100EFDD8D /* libZXingObjC-iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 03699A3D18BF1CDE006B3D3E;
 			remoteInfo = spike;
+		};
+		0EFA8C4F18CF2D5100EFDD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25403CB3166A96FA00E13304;
+			remoteInfo = "ZXingObjC-iOS";
+		};
+		0EFA8C5118CF2D5100EFDD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25403CC4166A96FA00E13304;
+			remoteInfo = "Unit Tests iOS";
+		};
+		0EFA8C5318CF2D5100EFDD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25404166166AADAC00E13304;
+			remoteInfo = "ZXingObjC-osx";
+		};
+		0EFA8C5518CF2D5100EFDD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25404178166AADAC00E13304;
+			remoteInfo = "Unit Tests OS X";
+		};
+		0EFA8C5718CF2D5100EFDD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2540439E166ABA0A00E13304;
+			remoteInfo = "OS X Framework";
+		};
+		0EFA8C5A18CF2D6E00EFDD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25403CB2166A96FA00E13304;
+			remoteInfo = "ZXingObjC-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -70,6 +113,7 @@
 		0EFA8C3F18CF1B0600EFDD8D /* ScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerViewController.h; sourceTree = "<group>"; };
 		0EFA8C4018CF1B0600EFDD8D /* ScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerViewController.m; sourceTree = "<group>"; };
 		0EFA8C4118CF1B0600EFDD8D /* ScannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScannerViewController.xib; sourceTree = "<group>"; };
+		0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingObjC.xcodeproj; path = ZXingObjC/ZXingObjC.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFA8C5918CF2D6500EFDD8D /* libZXingObjC-iOS.a in Frameworks */,
 				0EFA8C3C18CF17BE00EFDD8D /* ImageIO.framework in Frameworks */,
 				0EFA8C3A18CF17B600EFDD8D /* CoreVideo.framework in Frameworks */,
 				0EFA8C3818CF17A900EFDD8D /* CoreMedia.framework in Frameworks */,
@@ -108,6 +153,7 @@
 				03699A6618BF1CDE006B3D3E /* spikeTests */,
 				03699A4018BF1CDE006B3D3E /* Frameworks */,
 				03699A3F18BF1CDE006B3D3E /* Products */,
+				0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,6 +229,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0EFA8C4818CF2D5000EFDD8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EFA8C5018CF2D5100EFDD8D /* libZXingObjC-iOS.a */,
+				0EFA8C5218CF2D5100EFDD8D /* Unit Tests iOS.octest */,
+				0EFA8C5418CF2D5100EFDD8D /* libZXingObjC-osx.a */,
+				0EFA8C5618CF2D5100EFDD8D /* Unit Tests OS X.octest */,
+				0EFA8C5818CF2D5100EFDD8D /* ZXingObjC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,6 +255,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0EFA8C5B18CF2D6E00EFDD8D /* PBXTargetDependency */,
 			);
 			name = spike;
 			productName = spike;
@@ -246,6 +305,12 @@
 			mainGroup = 03699A3518BF1CDE006B3D3E;
 			productRefGroup = 03699A3F18BF1CDE006B3D3E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0EFA8C4818CF2D5000EFDD8D /* Products */;
+					ProjectRef = 0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				03699A3D18BF1CDE006B3D3E /* spike */,
@@ -253,6 +318,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0EFA8C5018CF2D5100EFDD8D /* libZXingObjC-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libZXingObjC-iOS.a";
+			remoteRef = 0EFA8C4F18CF2D5100EFDD8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EFA8C5218CF2D5100EFDD8D /* Unit Tests iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unit Tests iOS.octest";
+			remoteRef = 0EFA8C5118CF2D5100EFDD8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EFA8C5418CF2D5100EFDD8D /* libZXingObjC-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libZXingObjC-osx.a";
+			remoteRef = 0EFA8C5318CF2D5100EFDD8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EFA8C5618CF2D5100EFDD8D /* Unit Tests OS X.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unit Tests OS X.octest";
+			remoteRef = 0EFA8C5518CF2D5100EFDD8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EFA8C5818CF2D5100EFDD8D /* ZXingObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZXingObjC.framework;
+			remoteRef = 0EFA8C5718CF2D5100EFDD8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		03699A3C18BF1CDE006B3D3E /* Resources */ = {
@@ -304,6 +407,11 @@
 			isa = PBXTargetDependency;
 			target = 03699A3D18BF1CDE006B3D3E /* spike */;
 			targetProxy = 03699A6418BF1CDE006B3D3E /* PBXContainerItemProxy */;
+		};
+		0EFA8C5B18CF2D6E00EFDD8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZXingObjC-iOS";
+			targetProxy = 0EFA8C5A18CF2D6E00EFDD8D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
