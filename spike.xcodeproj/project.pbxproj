@@ -21,6 +21,14 @@
 		03699A6318BF1CDE006B3D3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03699A4518BF1CDE006B3D3E /* UIKit.framework */; };
 		03699A6B18BF1CDE006B3D3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03699A6918BF1CDE006B3D3E /* InfoPlist.strings */; };
 		03699A6D18BF1CDE006B3D3E /* spikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03699A6C18BF1CDE006B3D3E /* spikeTests.m */; };
+		0EFA8BA418CF12E800EFDD8D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFA8BA318CF12E800EFDD8D /* ViewController.xib */; };
+		0EFA8C3418CF179800EFDD8D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA8C3318CF179800EFDD8D /* AVFoundation.framework */; };
+		0EFA8C3618CF17A000EFDD8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA8C3518CF17A000EFDD8D /* QuartzCore.framework */; };
+		0EFA8C3818CF17A900EFDD8D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA8C3718CF17A900EFDD8D /* CoreMedia.framework */; };
+		0EFA8C3A18CF17B600EFDD8D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA8C3918CF17B600EFDD8D /* CoreVideo.framework */; };
+		0EFA8C3C18CF17BE00EFDD8D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA8C3B18CF17BE00EFDD8D /* ImageIO.framework */; };
+		0EFA8C4218CF1B0600EFDD8D /* ScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA8C4018CF1B0600EFDD8D /* ScannerViewController.m */; };
+		0EFA8C4318CF1B0600EFDD8D /* ScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFA8C4118CF1B0600EFDD8D /* ScannerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,15 @@
 		03699A6818BF1CDE006B3D3E /* spikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spikeTests-Info.plist"; sourceTree = "<group>"; };
 		03699A6A18BF1CDE006B3D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03699A6C18BF1CDE006B3D3E /* spikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spikeTests.m; sourceTree = "<group>"; };
+		0EFA8BA318CF12E800EFDD8D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		0EFA8C3318CF179800EFDD8D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0EFA8C3518CF17A000EFDD8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0EFA8C3718CF17A900EFDD8D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0EFA8C3918CF17B600EFDD8D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0EFA8C3B18CF17BE00EFDD8D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0EFA8C3F18CF1B0600EFDD8D /* ScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerViewController.h; sourceTree = "<group>"; };
+		0EFA8C4018CF1B0600EFDD8D /* ScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerViewController.m; sourceTree = "<group>"; };
+		0EFA8C4118CF1B0600EFDD8D /* ScannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScannerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFA8C3C18CF17BE00EFDD8D /* ImageIO.framework in Frameworks */,
+				0EFA8C3A18CF17B600EFDD8D /* CoreVideo.framework in Frameworks */,
+				0EFA8C3818CF17A900EFDD8D /* CoreMedia.framework in Frameworks */,
+				0EFA8C3618CF17A000EFDD8D /* QuartzCore.framework in Frameworks */,
+				0EFA8C3418CF179800EFDD8D /* AVFoundation.framework in Frameworks */,
 				03699A4418BF1CDE006B3D3E /* CoreGraphics.framework in Frameworks */,
 				03699A4618BF1CDE006B3D3E /* UIKit.framework in Frameworks */,
 				03699A4218BF1CDE006B3D3E /* Foundation.framework in Frameworks */,
@@ -101,6 +123,11 @@
 		03699A4018BF1CDE006B3D3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0EFA8C3B18CF17BE00EFDD8D /* ImageIO.framework */,
+				0EFA8C3918CF17B600EFDD8D /* CoreVideo.framework */,
+				0EFA8C3718CF17A900EFDD8D /* CoreMedia.framework */,
+				0EFA8C3518CF17A000EFDD8D /* QuartzCore.framework */,
+				0EFA8C3318CF179800EFDD8D /* AVFoundation.framework */,
 				03699A4118BF1CDE006B3D3E /* Foundation.framework */,
 				03699A4318BF1CDE006B3D3E /* CoreGraphics.framework */,
 				03699A4518BF1CDE006B3D3E /* UIKit.framework */,
@@ -117,6 +144,10 @@
 				03699A5318BF1CDE006B3D3E /* Main.storyboard */,
 				03699A5618BF1CDE006B3D3E /* ViewController.h */,
 				03699A5718BF1CDE006B3D3E /* ViewController.m */,
+				0EFA8BA318CF12E800EFDD8D /* ViewController.xib */,
+				0EFA8C3F18CF1B0600EFDD8D /* ScannerViewController.h */,
+				0EFA8C4018CF1B0600EFDD8D /* ScannerViewController.m */,
+				0EFA8C4118CF1B0600EFDD8D /* ScannerViewController.xib */,
 				03699A5918BF1CDE006B3D3E /* Images.xcassets */,
 				03699A4818BF1CDE006B3D3E /* Supporting Files */,
 			);
@@ -230,7 +261,9 @@
 			files = (
 				03699A5A18BF1CDE006B3D3E /* Images.xcassets in Resources */,
 				03699A4C18BF1CDE006B3D3E /* InfoPlist.strings in Resources */,
+				0EFA8BA418CF12E800EFDD8D /* ViewController.xib in Resources */,
 				03699A5518BF1CDE006B3D3E /* Main.storyboard in Resources */,
+				0EFA8C4318CF1B0600EFDD8D /* ScannerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +285,7 @@
 				03699A5818BF1CDE006B3D3E /* ViewController.m in Sources */,
 				03699A5218BF1CDE006B3D3E /* AppDelegate.m in Sources */,
 				03699A4E18BF1CDE006B3D3E /* main.m in Sources */,
+				0EFA8C4218CF1B0600EFDD8D /* ScannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +414,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "spike/spike-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "spike/spike-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -393,6 +431,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "spike/spike-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "spike/spike-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -460,6 +502,7 @@
 				03699A7218BF1CDE006B3D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03699A7318BF1CDE006B3D3E /* Build configuration list for PBXNativeTarget "spikeTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +511,7 @@
 				03699A7518BF1CDE006B3D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UITextView *textView;
+@property (nonatomic, strong) IBOutlet UIImageView *imageView;
+
+- (IBAction)updatePressed:(id)sender;
+- (IBAction)scanPressed:(id)sender;
+
 @end
