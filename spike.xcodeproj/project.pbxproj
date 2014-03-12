@@ -16,11 +16,10 @@
 		03699A5518BF1CDE006B3D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03699A5318BF1CDE006B3D3E /* Main.storyboard */; };
 		03699A5818BF1CDE006B3D3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03699A5718BF1CDE006B3D3E /* ViewController.m */; };
 		03699A5A18BF1CDE006B3D3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03699A5918BF1CDE006B3D3E /* Images.xcassets */; };
-		03699A6118BF1CDE006B3D3E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03699A6018BF1CDE006B3D3E /* XCTest.framework */; };
-		03699A6218BF1CDE006B3D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03699A4118BF1CDE006B3D3E /* Foundation.framework */; };
-		03699A6318BF1CDE006B3D3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03699A4518BF1CDE006B3D3E /* UIKit.framework */; };
-		03699A6B18BF1CDE006B3D3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03699A6918BF1CDE006B3D3E /* InfoPlist.strings */; };
-		03699A6D18BF1CDE006B3D3E /* spikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03699A6C18BF1CDE006B3D3E /* spikeTests.m */; };
+		0E90D7BB18D009A000CD2BDE /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90D7BA18D009A000CD2BDE /* ImageViewController.m */; };
+		0E90D7C118D00A4F00CD2BDE /* IphoneScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90D7BD18D00A4F00CD2BDE /* IphoneScreen.m */; };
+		0E90D7C218D00A4F00CD2BDE /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90D7BF18D00A4F00CD2BDE /* ImageUtil.m */; };
+		0E90D7C418D0123B00CD2BDE /* bg11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E90D7C318D0123B00CD2BDE /* bg11.png */; };
 		0EFA8BA418CF12E800EFDD8D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFA8BA318CF12E800EFDD8D /* ViewController.xib */; };
 		0EFA8C3418CF179800EFDD8D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA8C3318CF179800EFDD8D /* AVFoundation.framework */; };
 		0EFA8C3618CF17A000EFDD8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA8C3518CF17A000EFDD8D /* QuartzCore.framework */; };
@@ -33,12 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03699A6418BF1CDE006B3D3E /* PBXContainerItemProxy */ = {
+		0E90D7C518D0143B00CD2BDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 03699A3618BF1CDE006B3D3E /* Project object */;
+			containerPortal = 0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 03699A3D18BF1CDE006B3D3E;
-			remoteInfo = spike;
+			remoteGlobalIDString = 25403CB2166A96FA00E13304;
+			remoteInfo = "ZXingObjC-iOS";
 		};
 		0EFA8C4F18CF2D5100EFDD8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -75,13 +74,6 @@
 			remoteGlobalIDString = 2540439E166ABA0A00E13304;
 			remoteInfo = "OS X Framework";
 		};
-		0EFA8C5A18CF2D6E00EFDD8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0EFA8C4718CF2D5000EFDD8D /* ZXingObjC.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 25403CB2166A96FA00E13304;
-			remoteInfo = "ZXingObjC-iOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -99,11 +91,18 @@
 		03699A5618BF1CDE006B3D3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		03699A5718BF1CDE006B3D3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		03699A5918BF1CDE006B3D3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		03699A5F18BF1CDE006B3D3E /* spikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03699A6018BF1CDE006B3D3E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		03699A6818BF1CDE006B3D3E /* spikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spikeTests-Info.plist"; sourceTree = "<group>"; };
 		03699A6A18BF1CDE006B3D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03699A6C18BF1CDE006B3D3E /* spikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spikeTests.m; sourceTree = "<group>"; };
+		0E90D7B918D009A000CD2BDE /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		0E90D7BA18D009A000CD2BDE /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		0E90D7BC18D00A4F00CD2BDE /* IphoneScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IphoneScreen.h; sourceTree = "<group>"; };
+		0E90D7BD18D00A4F00CD2BDE /* IphoneScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IphoneScreen.m; sourceTree = "<group>"; };
+		0E90D7BE18D00A4F00CD2BDE /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		0E90D7BF18D00A4F00CD2BDE /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		0E90D7C018D00A4F00CD2BDE /* ColorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMatrix.h; sourceTree = "<group>"; };
+		0E90D7C318D0123B00CD2BDE /* bg11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg11.png; sourceTree = "<group>"; };
 		0EFA8BA318CF12E800EFDD8D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		0EFA8C3318CF179800EFDD8D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0EFA8C3518CF17A000EFDD8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -133,16 +132,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03699A5C18BF1CDE006B3D3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03699A6118BF1CDE006B3D3E /* XCTest.framework in Frameworks */,
-				03699A6318BF1CDE006B3D3E /* UIKit.framework in Frameworks */,
-				03699A6218BF1CDE006B3D3E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -161,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				03699A3E18BF1CDE006B3D3E /* spike.app */,
-				03699A5F18BF1CDE006B3D3E /* spikeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,7 +182,15 @@
 				0EFA8C3F18CF1B0600EFDD8D /* ScannerViewController.h */,
 				0EFA8C4018CF1B0600EFDD8D /* ScannerViewController.m */,
 				0EFA8C4118CF1B0600EFDD8D /* ScannerViewController.xib */,
+				0E90D7B918D009A000CD2BDE /* ImageViewController.h */,
+				0E90D7BA18D009A000CD2BDE /* ImageViewController.m */,
+				0E90D7BC18D00A4F00CD2BDE /* IphoneScreen.h */,
+				0E90D7BD18D00A4F00CD2BDE /* IphoneScreen.m */,
+				0E90D7BE18D00A4F00CD2BDE /* ImageUtil.h */,
+				0E90D7BF18D00A4F00CD2BDE /* ImageUtil.m */,
+				0E90D7C018D00A4F00CD2BDE /* ColorMatrix.h */,
 				03699A5918BF1CDE006B3D3E /* Images.xcassets */,
+				0E90D7C318D0123B00CD2BDE /* bg11.png */,
 				03699A4818BF1CDE006B3D3E /* Supporting Files */,
 			);
 			path = spike;
@@ -255,30 +251,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				0EFA8C5B18CF2D6E00EFDD8D /* PBXTargetDependency */,
+				0E90D7C618D0143B00CD2BDE /* PBXTargetDependency */,
 			);
 			name = spike;
 			productName = spike;
 			productReference = 03699A3E18BF1CDE006B3D3E /* spike.app */;
 			productType = "com.apple.product-type.application";
-		};
-		03699A5E18BF1CDE006B3D3E /* spikeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 03699A7318BF1CDE006B3D3E /* Build configuration list for PBXNativeTarget "spikeTests" */;
-			buildPhases = (
-				03699A5B18BF1CDE006B3D3E /* Sources */,
-				03699A5C18BF1CDE006B3D3E /* Frameworks */,
-				03699A5D18BF1CDE006B3D3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				03699A6518BF1CDE006B3D3E /* PBXTargetDependency */,
-			);
-			name = spikeTests;
-			productName = spikeTests;
-			productReference = 03699A5F18BF1CDE006B3D3E /* spikeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -288,11 +266,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = wangshuai;
-				TargetAttributes = {
-					03699A5E18BF1CDE006B3D3E = {
-						TestTargetID = 03699A3D18BF1CDE006B3D3E;
-					};
-				};
 			};
 			buildConfigurationList = 03699A3918BF1CDE006B3D3E /* Build configuration list for PBXProject "spike" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -314,7 +287,6 @@
 			projectRoot = "";
 			targets = (
 				03699A3D18BF1CDE006B3D3E /* spike */,
-				03699A5E18BF1CDE006B3D3E /* spikeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -364,17 +336,10 @@
 			files = (
 				03699A5A18BF1CDE006B3D3E /* Images.xcassets in Resources */,
 				03699A4C18BF1CDE006B3D3E /* InfoPlist.strings in Resources */,
+				0E90D7C418D0123B00CD2BDE /* bg11.png in Resources */,
 				0EFA8BA418CF12E800EFDD8D /* ViewController.xib in Resources */,
 				03699A5518BF1CDE006B3D3E /* Main.storyboard in Resources */,
 				0EFA8C4318CF1B0600EFDD8D /* ScannerViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03699A5D18BF1CDE006B3D3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03699A6B18BF1CDE006B3D3E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,33 +350,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E90D7BB18D009A000CD2BDE /* ImageViewController.m in Sources */,
 				03699A5818BF1CDE006B3D3E /* ViewController.m in Sources */,
 				03699A5218BF1CDE006B3D3E /* AppDelegate.m in Sources */,
 				03699A4E18BF1CDE006B3D3E /* main.m in Sources */,
+				0E90D7C218D00A4F00CD2BDE /* ImageUtil.m in Sources */,
+				0E90D7C118D00A4F00CD2BDE /* IphoneScreen.m in Sources */,
 				0EFA8C4218CF1B0600EFDD8D /* ScannerViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03699A5B18BF1CDE006B3D3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03699A6D18BF1CDE006B3D3E /* spikeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03699A6518BF1CDE006B3D3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 03699A3D18BF1CDE006B3D3E /* spike */;
-			targetProxy = 03699A6418BF1CDE006B3D3E /* PBXContainerItemProxy */;
-		};
-		0EFA8C5B18CF2D6E00EFDD8D /* PBXTargetDependency */ = {
+		0E90D7C618D0143B00CD2BDE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ZXingObjC-iOS";
-			targetProxy = 0EFA8C5A18CF2D6E00EFDD8D /* PBXContainerItemProxy */;
+			targetProxy = 0E90D7C518D0143B00CD2BDE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -523,8 +478,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "spike/spike-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../**",
 					"$(inherited)",
+					"$(SRCROOT)/../../**",
 				);
 				INFOPLIST_FILE = "spike/spike-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -540,54 +495,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "spike/spike-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../**",
 					"$(inherited)",
+					"$(SRCROOT)/../../**",
 				);
 				INFOPLIST_FILE = "spike/spike-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		03699A7418BF1CDE006B3D3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spike.app/spike";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "spike/spike-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "spikeTests/spikeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		03699A7518BF1CDE006B3D3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spike.app/spike";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "spike/spike-Prefix.pch";
-				INFOPLIST_FILE = "spikeTests/spikeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -608,15 +521,6 @@
 			buildConfigurations = (
 				03699A7118BF1CDE006B3D3E /* Debug */,
 				03699A7218BF1CDE006B3D3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		03699A7318BF1CDE006B3D3E /* Build configuration list for PBXNativeTarget "spikeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				03699A7418BF1CDE006B3D3E /* Debug */,
-				03699A7518BF1CDE006B3D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

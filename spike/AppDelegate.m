@@ -8,16 +8,21 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "ImageViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    UINavigationController * nav =[[UINavigationController alloc]initWithRootViewController:self.viewController];
+//    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+//    UINavigationController * nav =[[UINavigationController alloc]initWithRootViewController:self.viewController];
+    ImageViewController *imageVC = [[ImageViewController alloc]init];
+     UINavigationController * nav =[[UINavigationController alloc]initWithRootViewController:imageVC];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
     // Override point for customization after application launch.
     return YES;
 }
